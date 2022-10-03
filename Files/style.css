@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+body {
+  background: url("https://digitallearning.eletsonline.com/wp-content/uploads/2016/11/Admin_Block_IIT-R.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 100vw; */
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  color: #fff;
+  background: #cd1212;
+}
+.header .container {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+ul li {
+  list-style-type: none;
+  margin: 20px;
+}
+.ul {
+  display: flex;
+}
+.header .container ul li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.header .container ul li a:hover {
+  color: rgb(0, 0, 0);
+  transition: color 0.25s;
+}
+.nothing {
+  height: 700px;
+}
+.home_page {
+  color: #fff;
+}
+.name h3 {
+  font-size: 50px;
+  text-align: center;
+}
+.name p {
+  padding: 0px 15px 0px 15px;
+}
+.name p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.main {
+  color: #fff;
+}
+.main .card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #242323;
+  margin: 10px;
+  padding: 20px;
+}
+.card ul {
+  display: flex;
+  justify-content: space-around;
+}
+.card ul li a:hover {
+  color: red;
+  transition: color 0.25s;
+}
+.footer {
+  color: #fff;
+  background: #000;
+}
+.footer .container {
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer .container ul li a:hover {
+  color: red;
+  transition: color 0.25s;
+}
+.credit {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.credit a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*----------------------------- Professor Login -----------------------------*/
+.nothing1 {
+  height: 500px;
+}
+.professor .card {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #242323;
+  margin: 10px;
+  padding: 20px;
+}
+.label {
+  display: block;
+}
+.input {
+  margin-bottom: 10px;
+}
+input {
+  padding-left: 5px;
+  border-radius: 6px;
+}
+.login {
+  display: block;
+  padding: 0px 15px 0px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.login:hover {
+  background-color: #00fa15;
+  color: #fff;
+  transition: color 0.25s, background-color 1s;
+  /* transition: background-color 0.5s; */
+}
+.card .login {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*--------------------- Register ----------------------------------*/
+.nothing2 {
+  height: 100px;
+}
+.register {
+  width: 450px;
+}
+.file-input {
+  display: block;
+  background-color: #242323;
+  border-radius: 8px;
+}
+.file-input > input {
+  opacity: 0;
+}
+.file-input > .drop-zone {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 200px;
+  border: dashed 2px #aaaaaa;
+  background-color: #242323;
+  border-radius: 4px;
+}
+
+/*------------------------------ Responsive website ------------------------------*/
+@media (max-width: 800px) {
+}
